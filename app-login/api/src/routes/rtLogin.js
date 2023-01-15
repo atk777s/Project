@@ -3,7 +3,7 @@ const ctLogin = require('../controller/ctLogin');
 
 
 route.post('/register', ctLogin.createUser);
-route.get('/login', ctLogin.logUser);
+route.post('/login', ctLogin.logUser);
 
 module.exports = {
   route

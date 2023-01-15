@@ -24,6 +24,7 @@ async function createUser(req, res) {
 
 async function logUser(req, res) {
   try {
+    // const { name, email, password } = req.params;
     const { name, email, password } = req.body;
 
 
